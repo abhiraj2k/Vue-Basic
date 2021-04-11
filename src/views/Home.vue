@@ -106,13 +106,14 @@ export default { name: "Home" };
   justify-content: space-between;
 }
 .content-1 .tag {
-  font-size: 20px;
+  font-size: 25px;
   color: white;
 }
 .content-1 .amount {
   font-size: 35px;
 }
 .content-1 .income {
+  align-items: center;
   position: relative;
 }
 .content-1 .income::after {
@@ -126,6 +127,7 @@ export default { name: "Home" };
 }
 
 .content-1 .expense {
+  align-items: center;
   position: relative;
 }
 .content-1 .expense::after {
@@ -258,7 +260,7 @@ export default { name: "Home" };
   }
   .content-container .content-1 .income,
   .content-container .content-1 .expense {
-    align-items: center;
+    align-items: baseline;
     padding: 0 15px;
     font-size: 10px;
   }
